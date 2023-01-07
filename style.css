@@ -1,50 +1,10 @@
+/* universal style */
 * {
     margin: 0px;
     padding: 0px;
 }
 
-.failure-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.fail-details {
-
-    margin: 100px;
-}
-
-.failure-title {
-    font-weight: 700;
-    font-size: 40px;
-    margin-bottom: 20px;
-}
-
-.failure-title-description {
-    margin-bottom: 20px;
-}
-
-.btn {
-    margin-top: 20px;
-    border-radius: 5px;
-    width: 160px;
-    height: 64px;
-    border: none;
-    font-weight: 600;
-    font-size: 20px;
-}
-
-.banner-btn {
-    background: #F15B22;
-    color: white;
-
-}
-
-.postive-mind-btn {
-    background: white;
-    color: #F15B22;
-}
-
+/* banner-section style */
 .banner-container {
     background-image: url(./images/banner/banner2.png);
     background-repeat: no-repeat;
@@ -72,6 +32,42 @@
     font-weight: bold;
 }
 
+.btn {
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 160px;
+    height: 64px;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.banner-btn {
+    background: #F15B22;
+    color: white;
+}
+
+/* failure-section style */
+.failure-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fail-details {
+    margin: 100px;
+}
+
+.failure-title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.failure-title-description {
+    margin-bottom: 20px;
+}
+
 ul {
     list-style: none;
 
@@ -87,7 +83,7 @@ ul li:before {
     margin-right: 8px;
 }
 
-
+/* my-plans style */
 .my-plans {
     text-align: center;
     margin-bottom: 50px;
@@ -118,8 +114,8 @@ ul li:before {
     font-size: 25px;
 }
 
+/* positive-mind style */
 .postive-mind {
-    /* background-image: url(./images/watch.png); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: 70%;
@@ -140,6 +136,12 @@ ul li:before {
     color: #FFFFFF;
 }
 
+.postive-mind-btn {
+    background: white;
+    color: #F15B22;
+}
+
+/* footer-style */
 footer {
     display: flex;
     justify-content: space-around;
